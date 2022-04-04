@@ -29,19 +29,6 @@ void setJam(int input1,int input2, int input3,bool a){
     }
 };
 
-// int getJam(int input1){
-//   setJam;
-//   return input1;
-// };
-// int getMenit(int input1){
-  
-//   return input1;
-// };
-// int getDetik(int input1){
-  
-//   return input1;
-// };
-
 /*dibawah adalah fungsi utama 
 untuk mendeklarasikan program ke console */
 int main() {
