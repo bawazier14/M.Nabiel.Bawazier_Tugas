@@ -1,2 +1,4 @@
 # M.Nabiel.Bawazier_Tugas_ADT
-T(x) = tugas ke () 
+1121031059
+Muhammad Nabiel Bawazier
+Informatika B
