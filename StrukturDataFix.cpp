@@ -1,3 +1,14 @@
+
+/* 1121031059
+   Muhammad Nabiel Bawazier
+   Informatika B */
+
+// T1_StrukturData
+
+/*  Program tugas untuk Matakuliah Struktur Data
+    Membuat Sebuah Fungsi Tambahan Pada File Jam
+    Menggunakan Value changer produce / Selector Function dan Validator*/
+
 #include <iostream>
 
 using namespace std;
@@ -40,5 +51,6 @@ int main() {
     cin >> SS;
     setJam(jam, HH,MM,SS);
     isValid(HH, MM,SS);
-    /*getJam(HH,MM,SS);*/
+  
+  return 0;
 }
