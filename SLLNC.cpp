@@ -162,37 +162,27 @@ void cariData( int cari){
   
 }
 
-void delData(int input){
+void hapusData(int input){
   TNode* nodeBantu = head; 
     TNode* hapus = NULL; 
-     if (nodeBantu != NULL && nodeBantu->data == input) 
-     { 
+  if (isEmpty() != 1 ){
+     if (nodeBantu != NULL && nodeBantu->data == input){ 
          head = nodeBantu->next; // mengubah node head 
-         delete nodeBantu;            // menghapus old head
-       // cout << "Data " << input << " telah dihapus\n";
+         delete nodeBantu;       // menghapus node yang diinginkan
          return; 
      } 
-         else
-     { 
-     while (nodeBantu != NULL && nodeBantu->data != input) 
-     { 
+       else{ 
+         while (nodeBantu != NULL && nodeBantu->data != input){ 
            hapus = nodeBantu; 
-         nodeBantu = nodeBantu->next; 
-     } 
-      if (nodeBantu == NULL){cout << "Data tidak ditemukan\n";}
-     if (nodeBantu ->data != input)
-      
-     
-       
-         return; 
-  
-     hapus->next = nodeBantu->next; 
-  
-     delete nodeBantu; 
-       
-     }
+           nodeBantu = nodeBantu->next; 
+         }
+         if (nodeBantu == NULL){
+           cout << "Data tidak ditemukan\n";
+         } hapus->next = nodeBantu->next;     
+       }
   cout << "Data " << input << " telah dihapus\n" ;
   tampilData();
+    }cout << "Data tidak ditemukan List Kosong\n";
 }
 
 
@@ -241,7 +231,7 @@ void delData(int input){
          } else if (pil == 8){
            cout << "Masukkan data yang ingin dihapus = ";
            cin >>dataBaru;
-           delData(dataBaru);
+           hapusData(dataBaru);
          } 
          else if (pil != 9) { 
              cout<<"\n Maaf, Pilihan yang anda pilih tidak tersedia!"; 
