@@ -196,8 +196,8 @@ void hapusData(int input){
          if (nodeBantu == tail -> next){
            cout << "Data tidak ditemukan\n";
            return;
-           } hapus->next = nodeBantu->next;     
-         }
+           }      
+         }hapus->next = nodeBantu->next;
        }
         cout << "Data " << input << " telah dihapus\n" ;
         tampilData();
