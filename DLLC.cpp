@@ -1,3 +1,10 @@
+// 1121031058
+// Muhammad Nabiel Bawazier
+// DLLC.cpp 
+// program double linked list circular
+// Dengan tambahan Function mencari data tertentu
+// dan Menghapus data Tertentu
+
 #include <iostream>
 
 using namespace std;
